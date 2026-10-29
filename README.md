@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><b>⬇ Descargar la última versión</b></a> · <a href="https://www.virustotal.com/gui/file/8060150730ea2b4928c3ce4427731fcd0b69ba4cf956b49d9b3414151fd22996">🛡️ Análisis en VirusTotal</a>
+  <a href="../../releases/latest"><b>⬇ Descargar la última versión</b></a> · <a href="https://www.virustotal.com/gui/file/02a8be1b937154a02760a3b0baec4bca0e6ffca602eebc0c4ce301867b5e260a">🛡️ Análisis en VirusTotal</a>
 </p>
 
 ---
@@ -43,7 +43,7 @@
 
 Tus datos (logs, respaldos, capturas, reportes) quedan en `Documentos\WRENCH LS` y no se borran al desinstalar.
 
-El instalador está analizado en [VirusTotal](https://www.virustotal.com/gui/file/8060150730ea2b4928c3ce4427731fcd0b69ba4cf956b49d9b3414151fd22996). Puedes comprobar que el archivo que descargaste
+El instalador está analizado en [VirusTotal](https://www.virustotal.com/gui/file/02a8be1b937154a02760a3b0baec4bca0e6ffca602eebc0c4ce301867b5e260a). Puedes comprobar que el archivo que descargaste
 es el mismo con su SHA-256, publicado en cada Release:
 
 ```powershell
