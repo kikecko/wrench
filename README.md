@@ -47,7 +47,7 @@ El instalador está analizado en [VirusTotal](https://www.virustotal.com/gui/fil
 es el mismo con su SHA-256, publicado en cada Release:
 
 ```powershell
-Get-FileHash .\WRENCH-LS-Setup-1.0.0-beta.exe -Algorithm SHA256
+Get-FileHash .\WRENCH-LS-Setup-1.0.2-beta.exe -Algorithm SHA256
 ```
 
 ## Estado de la beta
