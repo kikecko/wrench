@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><b>⬇ Descargar la última versión</b></a> · <a href="https://www.virustotal.com/gui/file/02a8be1b937154a02760a3b0baec4bca0e6ffca602eebc0c4ce301867b5e260a">🛡️ Análisis en VirusTotal</a>
+  <a href="../../releases/latest"><b>⬇ Descargar la última versión</b></a> · <a href="https://www.virustotal.com/gui/file/7eb533294e9b8397161ca4f636fd60150929d9a9aff92545c042de4ad73a0bc4">🛡️ Análisis en VirusTotal</a>
 </p>
 
 ---
@@ -43,19 +43,20 @@
 
 Tus datos (logs, respaldos, capturas, reportes) quedan en `Documentos\WRENCH LS` y no se borran al desinstalar.
 
-El instalador está analizado en [VirusTotal](https://www.virustotal.com/gui/file/02a8be1b937154a02760a3b0baec4bca0e6ffca602eebc0c4ce301867b5e260a). Puedes comprobar que el archivo que descargaste
+El instalador está analizado en [VirusTotal](https://www.virustotal.com/gui/file/7eb533294e9b8397161ca4f636fd60150929d9a9aff92545c042de4ad73a0bc4). Puedes comprobar que el archivo que descargaste
 es el mismo con su SHA-256, publicado en cada Release:
 
 ```powershell
-Get-FileHash .\WRENCH-LS-Setup-1.0.2-beta.exe -Algorithm SHA256
+Get-FileHash .\WRENCH-LS-Setup-1.0.3-beta.exe -Algorithm SHA256
 ```
 
 ## Estado de la beta
 
 - **Aruba AOS-S (2930F):** probado con equipos reales (consola, diagnóstico, firmware y recuperación de contraseña).
-- **Cisco IOS / IOS-XE:** consola y macros probados con equipos reales; asistentes de firmware de Catalyst 9000
-  y de recuperación de contraseña probados con simuladores y salidas de ejemplo.
-- **Huawei VRP y Teldat:** probados solo con salidas de ejemplo.
+- **Cisco IOS / IOS-XE:** consola, Telnet y SSH probados con equipo real; además, en laboratorio GNS3 (IOS 15.9 e
+  IOS-XE 17.18): macros, respaldo, antes/después, diagnóstico, plantillas, respaldo masivo, TFTP y Aplicar respaldo.
+- **Marcado «experimental» en la app** (aún sin equipo real): recuperación de contraseña Cisco y Huawei, asistente
+  de firmware Cisco y Huawei, Huawei VRP, Teldat, Cisco AP, respaldo masivo de Nexus/Huawei y Aplicar respaldo en NX-OS.
 
 Úsala primero en laboratorio. Los asistentes que cambian algo en el equipo muestran los comandos y piden
 confirmación antes de enviarlos. Si encuentras un error o quieres soporte para otro equipo, abre un
