@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><b>⬇ Descargar la última versión</b></a> · <a href="https://www.virustotal.com/gui/file/7eb533294e9b8397161ca4f636fd60150929d9a9aff92545c042de4ad73a0bc4">🛡️ Análisis en VirusTotal</a>
+  <a href="../../releases/latest"><b>⬇ Descargar la última versión</b></a> · <a href="https://www.virustotal.com/gui/file/928a6a644079a86e1a89a59d7c3525bb7e1e78803c38352ad69d559ed78f4804">🛡️ Análisis en VirusTotal</a>
 </p>
 
 ---
@@ -43,11 +43,11 @@
 
 Tus datos (logs, respaldos, capturas, reportes) quedan en `Documentos\WRENCH LS` y no se borran al desinstalar.
 
-El instalador está analizado en [VirusTotal](https://www.virustotal.com/gui/file/7eb533294e9b8397161ca4f636fd60150929d9a9aff92545c042de4ad73a0bc4). Puedes comprobar que el archivo que descargaste
+El instalador está analizado en [VirusTotal](https://www.virustotal.com/gui/file/928a6a644079a86e1a89a59d7c3525bb7e1e78803c38352ad69d559ed78f4804). Puedes comprobar que el archivo que descargaste
 es el mismo con su SHA-256, publicado en cada Release:
 
 ```powershell
-Get-FileHash .\WRENCH-LS-Setup-1.0.3-beta.exe -Algorithm SHA256
+Get-FileHash .\WRENCH-LS-Setup-1.0.4-beta.exe -Algorithm SHA256
 ```
 
 ## Estado de la beta
